@@ -1,0 +1,280 @@
+{
+    "instances": [
+        {"name": "INPUT_a", "id": 0, "xloc": -1, "yloc": -1, "cell": 6, "orient": 3},
+        {"name": "INPUT_b", "id": 1, "xloc": -1, "yloc": -1, "cell": 7, "orient": 2}, 
+        {"name": "INPUT_carry", "id": 2, "xloc": -1, "yloc": -1, "cell": 8, "orient": 1}, 
+        {"name": "OUTPUT", "id": 3, "xloc": -1, "yloc": -1, "cell": 5, "orient": 2}, 
+        {"name": "OUTPUT", "id": 4, "xloc": -1, "yloc": -1, "cell": 5, "orient": 1}, 
+        {"name": "nand", "id": 5, "xloc": -1, "yloc": -1, "cell": 0, "orient": 1}, 
+        {"name": "nand", "id": 6, "xloc": -1, "yloc": -1, "cell": 0, "orient": 6}, 
+        {"name": "nand", "id": 7, "xloc": -1, "yloc": -1, "cell": 0, "orient": 4}, 
+        {"name": "nand", "id": 8, "xloc": -1, "yloc": -1, "cell": 0, "orient": 0}, 
+        {"name": "nand", "id": 9, "xloc": -1, "yloc": -1, "cell": 0, "orient": 0}, 
+        {"name": "nand", "id": 10, "xloc": -1, "yloc": -1, "cell": 0, "orient": 4}, 
+        {"name": "nand", "id": 11, "xloc": -1, "yloc": -1, "cell": 0, "orient": 4}, 
+        {"name": "nand", "id": 12, "xloc": -1, "yloc": -1, "cell": 0, "orient": 2}, 
+        {"name": "nand", "id": 13, "xloc": -1, "yloc": -1, "cell": 0, "orient": 0}
+            ], 
+    "nets": [
+        {
+            "name": "net_0",
+            "id": 0,
+            "connections": [
+                {
+                    "source_instance_id": 0,
+                    "source_terminal": "a",
+                    "target_instance_id": 5,
+                    "target_terminal": "a",
+                    "connection_type": 0
+                }
+            ]
+        },
+        {
+            "name": "net_1",
+            "id": 1,
+            "connections": [
+                {
+                    "source_instance_id": 1,
+                    "source_terminal": "b",
+                    "target_instance_id": 5,
+                    "target_terminal": "b",
+                    "connection_type": 0
+                }
+            ]
+        },
+        {
+            "name": "net_2",
+            "id": 2,
+            "connections": [
+                {
+                    "source_instance_id": 0,
+                    "source_terminal": "a",
+                    "target_instance_id": 6,
+                    "target_terminal": "a",
+                    "connection_type": 0
+                }
+            ]
+        },
+        {
+            "name": "net_3",
+            "id": 3,
+            "connections": [
+                {
+                    "source_instance_id": 1,
+                    "source_terminal": "b",
+                    "target_instance_id": 7,
+                    "target_terminal": "b",
+                    "connection_type": 0
+                }
+            ]
+        },
+        {
+            "name": "net_4",
+            "id": 4,
+            "connections": [
+                {
+                    "source_instance_id": 5,
+                    "source_terminal": "out",
+                    "target_instance_id": 6,
+                    "target_terminal": "b",
+                    "connection_type": 1
+                }
+            ]
+        },
+        {
+            "name": "net_5",
+            "id": 5,
+            "connections": [
+                {
+                    "source_instance_id": 5,
+                    "source_terminal": "out",
+                    "target_instance_id": 7,
+                    "target_terminal": "b",
+                    "connection_type": 1
+                }
+            ]
+        },
+        {
+            "name": "net_6",
+            "id": 6,
+            "connections": [
+                {
+                    "source_instance_id": 6,
+                    "source_terminal": "out",
+                    "target_instance_id": 8,
+                    "target_terminal": "a",
+                    "connection_type": 1
+                }
+            ]
+        },
+        {
+            "name": "net_7",
+            "id": 7,
+            "connections": [
+                {
+                    "source_instance_id": 7,
+                    "source_terminal": "out",
+                    "target_instance_id": 8,
+                    "target_terminal": "b",
+                    "connection_type": 1
+                }
+            ]
+        },
+        {
+            "name": "net_8",
+            "id": 8,
+            "connections": [
+                {
+                    "source_instance_id": 2,
+                    "source_terminal": "c",
+                    "target_instance_id": 9,
+                    "target_terminal": "b",
+                    "connection_type": 0
+                }
+            ]
+        },
+        {
+            "name": "net_9",
+            "id": 9,
+            "connections": [
+                {
+                    "source_instance_id": 8,
+                    "source_terminal": "out",
+                    "target_instance_id": 9,
+                    "target_terminal": "a",
+                    "connection_type": 0
+                }
+            ]
+        },
+        {
+            "name": "net_10",
+            "id": 10,
+            "connections": [
+                {
+                    "source_instance_id": 8,
+                    "source_terminal": "out",
+                    "target_instance_id": 10,
+                    "target_terminal": "a",
+                    "connection_type": 0
+                }
+            ]
+        },
+        {
+            "name": "net_11",
+            "id": 11,
+            "connections": [
+                {
+                    "source_instance_id": 9,
+                    "source_terminal": "out",
+                    "target_instance_id": 10,
+                    "target_terminal": "b",
+                    "connection_type": 1
+                }
+            ]
+        },
+        {
+            "name": "net_12",
+            "id": 12,
+            "connections": [
+                {
+                    "source_instance_id": 2,
+                    "source_terminal": "c",
+                    "target_instance_id": 11,
+                    "target_terminal": "b",
+                    "connection_type": 0
+                }
+            ]
+        },
+        {
+            "name": "net_13",
+            "id": 13,
+            "connections": [
+                {
+                    "source_instance_id": 9,
+                    "source_terminal": "out",
+                    "target_instance_id": 11,
+                    "target_terminal": "a",
+                    "connection_type": 1
+                }
+            ]
+        },
+        {
+            "name": "net_14",
+            "id": 14,
+            "connections": [
+                {
+                    "source_instance_id": 10,
+                    "source_terminal": "out",
+                    "target_instance_id": 13,
+                    "target_terminal": "a",
+                    "connection_type": 1
+                }
+            ]
+        },
+        {
+            "name": "net_15",
+            "id": 15,
+            "connections": [
+                {
+                    "source_instance_id": 11,
+                    "source_terminal": "out",
+                    "target_instance_id": 13,
+                    "target_terminal": "b",
+                    "connection_type": 1
+                }
+            ]
+        },
+        {
+            "name": "net_16",
+            "id": 16,
+            "connections": [
+                {
+                    "source_instance_id": 13,
+                    "source_terminal": "out",
+                    "target_instance_id": 4,
+                    "target_terminal": "out",
+                    "connection_type": 0
+                }
+            ]
+        },
+        {
+            "name": "net_17",
+            "id": 17,
+            "connections": [
+                {
+                    "source_instance_id": 5,
+                    "source_terminal": "out",
+                    "target_instance_id": 12,
+                    "target_terminal": "a",
+                    "connection_type": 1
+                }
+            ]
+        },
+        {
+            "name": "net_18",
+            "id": 18,
+            "connections": [
+                {
+                    "source_instance_id": 9,
+                    "source_terminal": "out",
+                    "target_instance_id": 12,
+                    "target_terminal": "b",
+                    "connection_type": 1
+                }
+            ]
+        },
+        {
+            "name": "net_19",
+            "id": 19,
+            "connections": [
+                {
+                    "source_instance_id": 12,
+                    "source_terminal": "out",
+                    "target_instance_id": 3,
+                    "target_terminal": "out",
+                    "connection_type": 0
+                }
+            ]
+        }
+        ]
+}
