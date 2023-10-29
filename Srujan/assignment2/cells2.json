@@ -1,0 +1,42 @@
+[
+    {"name": "nand", "id": 0, "width": 2000, "height": 3000, "terms": [
+        {"name": "a", "id": 0, "dir": 0, "xloc": 666, "yloc": 0}, 
+        {"name": "b", "id": 1, "dir": 0, "xloc": 1333, "yloc": 0}, 
+        {"name": "out", "id": 3, "dir": 1, "xloc": 1000, "yloc": 3000}]
+    },
+    {"name": "and", "id": 1, "width": 4000, "height": 3500, "terms": [
+        {"name": "a", "id": 4, "dir": 0, "xloc": 1333, "yloc": 0}, 
+        {"name": "b", "id": 5, "dir": 0, "xloc": 2666, "yloc": 0}, 
+        {"name": "out", "id": 6, "dir": 1, "xloc": 2000, "yloc": 3500}]
+    }, 
+    {"name": "or", "id": 2, "width": 3750, "height": 3750, "terms": [
+        {"name": "a", "id": 7, "dir": 0, "xloc": 1250, "yloc": 0}, 
+        {"name": "b", "id": 8, "dir": 0, "xloc": 2500, "yloc": 0}, 
+        {"name": "out", "id": 9, "dir": 1, "xloc": 1875, "yloc": 3750}]
+    }, 
+    {"name": "xor", "id": 3, "width": 8000, "height": 12000, "terms": [
+        {"name": "a", "id": 10, "dir": 0, "xloc": 2666, "yloc": 0}, 
+        {"name": "b", "id": 11, "dir": 0, "xloc": 5333, "yloc": 0}, 
+        {"name": "out", "id": 12, "dir": 1, "xloc": 4000, "yloc": 12000}]
+    },
+    {"name": "inv", "id": 4, "width": 2200, "height": 3100, "terms": [
+        {"name": "a", "id": 13, "dir": 0, "xloc": 733, "yloc": 0}, 
+        {"name": "out", "id": 14, "dir": 1, "xloc": 1100, "yloc": 3100}]
+    }, 
+    {"name": "OUTPUT", "id": 5, "width": 12000, "height": 5000, "terms": [
+        {"name": "c", "id": 13, "dir": 1, "xloc": 6000, "yloc": 5000},
+        {"name": "s1", "id": 13, "dir": 1, "xloc": 6000, "yloc": 5000},
+        {"name": "s0", "id": 13, "dir": 1, "xloc": 6000, "yloc": 5000}]
+    }, 
+    {"name": "INPUT_a", "id": 6, "width": 12000, "height": 5000, "terms": [
+        {"name": "a1", "id": 13, "dir": 0, "xloc": 4000, "yloc": 0},
+        {"name": "a0", "id": 14, "dir": 0, "xloc": 6000, "yloc": 0}]
+    }, 
+    {"name": "INPUT_b", "id": 7, "width": 12000, "height": 5000, "terms": [
+        {"name": "b1", "id": 15, "dir": 0, "xloc": 8000, "yloc": 0},
+        {"name": "b0", "id": 16, "dir": 0, "xloc": 10000, "yloc": 0}]
+    }, 
+    {"name": "INPUT_carry", "id": 8, "width": 12000, "height": 5000, "terms": [
+        {"name": "c", "id": 17, "dir": 1, "xloc": 6000, "yloc": 5000}]
+    }
+]
