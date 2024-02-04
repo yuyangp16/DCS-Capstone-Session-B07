@@ -1,1 +1,1 @@
-# DCS-Capstone-Session-B07
+# DSC-Capstone-Session-B07
